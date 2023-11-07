@@ -2,7 +2,7 @@
 Yanqin Jiang<sup>1</sup>, [Li Zhang](https://lzrobots.github.io/)<sup>3</sup>, [Jin Gao](https://people.ucas.edu.cn/~jgao?language=en)<sup>1</sup>, [Weimin Hu](https://people.ucas.ac.cn/~huweiming?language=en)<sup>1</sup>, [Yao Yao](https://yoyo000.github.io/)<sup>2 ✉</sup> <br>
 <sup>1</sup>CASIA, <sup>2</sup>Nanjin University, <sup>3</sup>Fudan University
 
-| [Project Page](https://consistent4d.github.io/) | arXiv | [Paper](https://drive.google.com/file/d/1_WUKUwZBUTybayZ81mzQYPIo9Djq7kPb/view?usp=sharing) | Video (Coming soon) | [Data](https://drive.google.com/file/d/1mJNhFKvzZ-8icAw6KC-W-sf7JmmmMUkx/view?usp=sharing) |
+| [Project Page](https://consistent4d.github.io/) | [arXiv](https://arxiv.org/abs/2311.02848) | [Paper](https://drive.google.com/file/d/1-6Ajm7AzAeAQ9IJLA1ntAUXJCZ0JOU56/view?usp=sharing) | Video (Coming soon) | [Data](https://drive.google.com/file/d/1mJNhFKvzZ-8icAw6KC-W-sf7JmmmMUkx/view?usp=sharing) |
 
 ![Demo GIF](https://github.com/consistent4d/consistent4d.github.io/blob/main/assets/demo.gif)
 
@@ -18,7 +18,7 @@ It is optimized by minimizing the discrepancy between rendered frames from DyNeR
 Extensive experiments show that our Consistent4D can perform competitively to prior art alternatives, opening up new possibilities for 4D dynamic object generation from monocular videos, whilst also demonstrating advantage for conventional text-to-3D generation tasks. Our project page is [https://consistent4d.github.io/](https://consistent4d.github.io/)
 
 # News
-[**2023.11.6**] The paper of Consistent4D is avaliable at arXiv. We also provide input videos used in our paper [here](https://drive.google.com/file/d/1mJNhFKvzZ-8icAw6KC-W-sf7JmmmMUkx/view?usp=sharing).  
+[**2023.11.7**] The paper of Consistent4D is avaliable at [arXiv](https://arxiv.org/abs/2311.02848). We also provide input videos used in our paper [here](https://drive.google.com/file/d/1mJNhFKvzZ-8icAw6KC-W-sf7JmmmMUkx/view?usp=sharing).  
 
 # Citation
 ```bibtex
