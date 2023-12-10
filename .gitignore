@@ -1,0 +1,4 @@
+**/__pycache__/
+load/zero123/zero123-xl.ckpt
+*.ckpt
+*.pkl
