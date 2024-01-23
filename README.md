@@ -76,7 +76,7 @@ The structure of the input data should be like
 python launch.py --config configs/consistent4d.yaml --train --gpu 0 data.image_seq_path=./load/demo/blooming_rose
 ```
 ## Video enhancer 
-Video enhancer, as a post-processing step, can only slightly enhance the quality (sometimes it cannot enhance at all), while it requires tedious workflow to prepare the training data. So feel free to skip it. **All Videos in our paper and project page are all without video enhancer if not specially mentioned**. We will claim video enhancer as an optional stage in the updated paper. To use video enhancer:
+Video enhancer, as a post-processing step, can only slightly enhance the quality (sometimes it cannot enhance at all), while it requires tedious workflow to prepare the training data. So feel free to skip it. **All Videos in our paper and project page are without video enhancer if not specially mentioned**. We will claim video enhancer as an optional stage in the updated paper. To use video enhancer:
 
 - prepare the environment according to [Pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix), the repository upon which we build our code. thanks for their great work!
 - prepare the training data
@@ -117,7 +117,7 @@ Next, run
 cd evaluation
 # image-level metrics
 python compute_image_level_metrics.py --gt_root /path/to/gt --pred_root /path/to/pred
-# video-level metrias
+# video-level metrics
 python compute_fvd.py --gt_root /path/to/gt --pred_root /path/to/pred --model_path /path/to/i3d_pretrained_400.pt
 ```
 
