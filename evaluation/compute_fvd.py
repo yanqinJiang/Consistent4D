@@ -1,5 +1,5 @@
 # This code is reorganized from DisCo (https://github.com/Wangt-CN/DisCo?tab=readme-ov-file)
-# The difference between the result computed by this code and the original one lies in the two decimal places. (误差在小数点后两位）
+# The difference between the result computed by this code and the original one lies in the two decimal places. (误差在小数点后三到四位）
 # And this difference might be caused by the following problem:
 # https://github.com/pytorch/pytorch/issues/75363 
 # conv3d has numerical issue where same input produces output that are not bit-wise identical
