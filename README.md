@@ -2,7 +2,7 @@
 Yanqin Jiang<sup>1</sup>, [Li Zhang](https://lzrobots.github.io/)<sup>3</sup>, [Jin Gao](https://people.ucas.edu.cn/~jgao?language=en)<sup>1</sup>, [Weimin Hu](https://people.ucas.ac.cn/~huweiming?language=en)<sup>1</sup>, [Yao Yao](https://yoyo000.github.io/)<sup>2 ✉</sup> <br>
 <sup>1</sup>CASIA, <sup>2</sup>Nanjin University, <sup>3</sup>Fudan University
 
-| [Project Page](https://consistent4d.github.io/) | [arXiv](https://arxiv.org/abs/2311.02848) | [Paper](https://drive.google.com/file/d/1-6Ajm7AzAeAQ9IJLA1ntAUXJCZ0JOU56/view?usp=sharing) | Video (Coming soon) | [Data (in-the-wild)](https://drive.google.com/file/d/1mJNhFKvzZ-8icAw6KC-W-sf7JmmmMUkx/view?usp=sharing) | [Data (test_dataset)](https://drive.google.com/file/d/1FwpP15k3fPGq8YG4s7bsogdJm6Gm86kg/view?usp=sharing) |
+| [Project Page](https://consistent4d.github.io/) | [arXiv](https://arxiv.org/abs/2311.02848) | [Paper](https://drive.google.com/file/d/1-6Ajm7AzAeAQ9IJLA1ntAUXJCZ0JOU56/view?usp=sharing) | Video (Coming soon) | [Data (only input video)](https://drive.google.com/file/d/1mJNhFKvzZ-8icAw6KC-W-sf7JmmmMUkx/view?usp=sharing) | [Data (test_dataset)](https://drive.google.com/file/d/1FwpP15k3fPGq8YG4s7bsogdJm6Gm86kg/view?usp=sharing) |
 
 ![Demo GIF](https://github.com/consistent4d/consistent4d.github.io/blob/main/assets/demo.gif)
 
@@ -21,7 +21,7 @@ Extensive experiments show that our Consistent4D can perform competitively to pr
 [**2024.01.23**] &#x1F389; All codes, including evaluation scripts, are released! Thanks for your interests! (The refractored code seems to be able to generate slightly better results than what we used before. Don't know why, but happy to hear this.) <br>
 [**2024.01.16**] &#x1F389;&#x1F61C; **Consistent4D** is accepted by [ICLR 2024](https://openreview.net/forum?id=sPUrdFGepF)! Thanks for all! Our paper will soon be updated according to the suggestions in rebuttal pharse. <br>
 [**2023.12.10**] The code of Consistent4D is released! The code is refractored and optimized to accelerate training (**~2 hours** on a V100 GPU now!). For the convenience of quantitative comparison, we provide [**test dataset**](https://drive.google.com/file/d/1FwpP15k3fPGq8YG4s7bsogdJm6Gm86kg/view?usp=sharing) used in our paper and [our results](https://drive.google.com/file/d/1kyt78Er7ylO3hEz6Zn8ug31UqPa5kSNb/view?usp=sharing) on test dataset. <br>
-[**2023.11.07**] The paper of Consistent4D is avaliable at [arXiv](https://arxiv.org/abs/2311.02848). We also provide input videos used in our paper [here](https://drive.google.com/file/d/1mJNhFKvzZ-8icAw6KC-W-sf7JmmmMUkx/view?usp=sharing). For our results on the input videos, please visit our [github project page](https://github.com/consistent4d/consistent4d.github.io) to download them (see folder `gallery`).
+[**2023.11.07**] The paper of Consistent4D is avaliable at [arXiv](https://arxiv.org/abs/2311.02848). We also provide input videos used in our paper/project page [here](https://drive.google.com/file/d/1mJNhFKvzZ-8icAw6KC-W-sf7JmmmMUkx/view?usp=sharing). For our results on the input videos, please visit our [github project page](https://github.com/consistent4d/consistent4d.github.io) to download them (see folder `gallery`).
 
 # Installation
 **The installation is the same as the original threestudio, so skip it if you have already installed threestudio.** 
@@ -76,7 +76,7 @@ The structure of the input data should be like
 python launch.py --config configs/consistent4d.yaml --train --gpu 0 data.image_seq_path=./load/demo/blooming_rose
 ```
 ## Video enhancer 
-Video enhancer, as a post-processing step, can only slightly enhance the quality (sometimes it cannot enhance at all), while it requires tedious workflow to prepare the training data. So feel free to skip it. **All Videos in our paper and project page are without video enhancer if not specially mentioned**. We will claim video enhancer as an optional stage in the updated paper. To use video enhancer:
+Video enhancer, as a post-processing step, can only slightly enhance the quality (sometimes it cannot enhance at all), while it requires tedious workflow to prepare the training data. So feel free to skip it. **All results (qualitative/quantitative) in our paper and project page are without video enhancer if not specially mentioned**. We will claim video enhancer as an optional stage in the updated paper. To use video enhancer:
 
 - prepare the environment according to [Pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix), the repository upon which we build our code. thanks for their great work!
 - prepare the training data
