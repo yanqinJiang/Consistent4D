@@ -2,7 +2,7 @@
 Yanqin Jiang<sup>1</sup>, [Li Zhang](https://lzrobots.github.io/)<sup>3</sup>, [Jin Gao](https://people.ucas.edu.cn/~jgao?language=en)<sup>1</sup>, [Weimin Hu](https://people.ucas.ac.cn/~huweiming?language=en)<sup>1</sup>, [Yao Yao](https://yoyo000.github.io/)<sup>2 ✉</sup> <br>
 <sup>1</sup>CASIA, <sup>2</sup>Nanjin University, <sup>3</sup>Fudan University
 
-| [Project Page](https://consistent4d.github.io/) | [arXiv](https://arxiv.org/abs/2311.02848) | [Paper](https://drive.google.com/file/d/1-6Ajm7AzAeAQ9IJLA1ntAUXJCZ0JOU56/view?usp=sharing) | Video (Coming soon) | [Data (only input video)](https://drive.google.com/file/d/1mJNhFKvzZ-8icAw6KC-W-sf7JmmmMUkx/view?usp=sharing) | [Data (test_dataset)](https://drive.google.com/file/d/1FwpP15k3fPGq8YG4s7bsogdJm6Gm86kg/view?usp=sharing) |
+| [Project Page](https://consistent4d.github.io/) | [arXiv](https://arxiv.org/abs/2311.02848) | [Paper](https://drive.google.com/file/d/1-6Ajm7AzAeAQ9IJLA1ntAUXJCZ0JOU56/view?usp=sharing) | Video (Coming soon) | [Data (only input video)](https://drive.google.com/file/d/1mJNhFKvzZ-8icAw6KC-W-sf7JmmmMUkx/view?usp=sharing) | [Data (test_dataset)](https://drive.google.com/file/d/1jn18kA2FfKMnyQ6fisIn8rhBI0dr3NFk/view?usp=sharing) |
 
 ![Demo GIF](https://github.com/consistent4d/consistent4d.github.io/blob/main/assets/demo.gif)
 
@@ -20,7 +20,7 @@ Extensive experiments show that our Consistent4D can perform competitively to pr
 # News
 [**2024.01.23**] &#x1F389; All codes, including evaluation scripts, are released! Thanks for your interests! (The refractored code seems to be able to generate slightly better results than what we used before. Don't know why, but happy to hear this.) <br>
 [**2024.01.16**] &#x1F389;&#x1F61C; **Consistent4D** is accepted by [ICLR 2024](https://openreview.net/forum?id=sPUrdFGepF)! Thanks for all! Our paper will soon be updated according to the suggestions in rebuttal pharse. <br>
-[**2023.12.10**] The code of Consistent4D is released! The code is refractored and optimized to accelerate training (**~2 hours** on a V100 GPU now!). For the convenience of quantitative comparison, we provide [**test dataset**](https://drive.google.com/file/d/1FwpP15k3fPGq8YG4s7bsogdJm6Gm86kg/view?usp=sharing) used in our paper and [our results](https://drive.google.com/file/d/1kyt78Er7ylO3hEz6Zn8ug31UqPa5kSNb/view?usp=sharing) on test dataset. <br>
+[**2023.12.10**] The code of Consistent4D is released! The code is refractored and optimized to accelerate training (**~2 hours** on a V100 GPU now!). For the convenience of quantitative comparison, we provide [**test dataset**](https://drive.google.com/file/d/1jn18kA2FfKMnyQ6fisIn8rhBI0dr3NFk/view?usp=sharing) used in our paper (our results on test dataset are also included). <br>
 [**2023.11.07**] The paper of Consistent4D is avaliable at [arXiv](https://arxiv.org/abs/2311.02848). We also provide input videos used in our paper/project page [here](https://drive.google.com/file/d/1mJNhFKvzZ-8icAw6KC-W-sf7JmmmMUkx/view?usp=sharing). For our results on the input videos, please visit our [github project page](https://github.com/consistent4d/consistent4d.github.io) to download them (see folder `gallery`).
 
 # Installation
