@@ -1,6 +1,6 @@
 # Consistent4D: Consistent 360° Dynamic Object Generation from Monocular Video
-Yanqin Jiang<sup>1</sup>, [Li Zhang](https://lzrobots.github.io/)<sup>3</sup>, [Jin Gao](https://people.ucas.edu.cn/~jgao?language=en)<sup>1</sup>, [Weimin Hu](https://people.ucas.ac.cn/~huweiming?language=en)<sup>1</sup>, [Yao Yao](https://yoyo000.github.io/)<sup>2 ✉</sup> <br>
-<sup>1</sup>CASIA, <sup>2</sup>Nanjin University, <sup>3</sup>Fudan University
+Yanqin Jiang<sup>1</sup>, [Li Zhang](https://lzrobots.github.io/)<sup>2</sup>, [Jin Gao](https://people.ucas.edu.cn/~jgao?language=en)<sup>1</sup>, [Weimin Hu](https://people.ucas.ac.cn/~huweiming?language=en)<sup>1</sup>, [Yao Yao](https://yoyo000.github.io/)<sup>3 ✉</sup> <br>
+<sup>1</sup>CASIA, <sup>2</sup>Fudan University, <sup>3</sup>Nanjin University
 
 | [Project Page](https://consistent4d.github.io/) | [arXiv](https://arxiv.org/abs/2311.02848) | [Paper](https://drive.google.com/file/d/1-6Ajm7AzAeAQ9IJLA1ntAUXJCZ0JOU56/view?usp=sharing) | Video (Coming soon) | [Data (only input video)](https://drive.google.com/file/d/1mJNhFKvzZ-8icAw6KC-W-sf7JmmmMUkx/view?usp=sharing) | [Data (test_dataset)](https://drive.google.com/file/d/1jn18kA2FfKMnyQ6fisIn8rhBI0dr3NFk/view?usp=sharing) |
 
@@ -143,12 +143,14 @@ Our code is based on [Threestudio](https://github.com/threestudio-project/threes
 The video interpolation model employed in our work is [RIFE](https://github.com/hzwer/Practical-RIFE), which is continuously improved by its authors for real-world application. Thanks for their great work!
 # Citation
 ```bibtex
- @article{jiang2023consistent4d,
-     author = {Jiang, Yanqin and Zhang, Li and Gao, Jin and Hu, Weimin and Yao, Yao},
-     title = {Consistent4D: Consistent 360 $\{$$\backslash$deg$\}$ Dynamic Object Generation from Monocular Video},
-     journal = {arXiv preprint arXiv:2311.02848},
-     year = {2023},
- }
+@inproceedings{
+jiang2024consistentd,
+title={Consistent4D: Consistent 360{\textdegree} Dynamic Object Generation from Monocular Video},
+author={Yanqin Jiang and Li Zhang and Jin Gao and Weiming Hu and Yao Yao},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+url={https://openreview.net/forum?id=sPUrdFGepF}
+}
 ```
 
 
