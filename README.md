@@ -18,6 +18,7 @@ It is optimized by minimizing the discrepancy between rendered frames from DyNeR
 Extensive experiments show that our Consistent4D can perform competitively to prior art alternatives, opening up new possibilities for 4D dynamic object generation from monocular videos, whilst also demonstrating advantage for conventional text-to-3D generation tasks. Our project page is [https://consistent4d.github.io/](https://consistent4d.github.io/)
 
 # News
+[**2024.03.25**] &#x1F389; Our new work [STAG4D](https://nju-3dv.github.io/projects/STAG4D/) is avaliable on arxiv! The results produced by STAG4D is **way better than** those of Consistent4D;. Welcome to keep an eye on it! <br>
 [**2024.01.23**] &#x1F389; All codes, including evaluation scripts, are released! Thanks for your interests! (The refractored code seems to be able to generate slightly better results than what we used before. Don't know why, but happy to hear this.) <br>
 [**2024.01.16**] &#x1F389;&#x1F61C; **Consistent4D** is accepted by [ICLR 2024](https://openreview.net/forum?id=sPUrdFGepF)! Thanks for all! Our paper will soon be updated according to the suggestions in rebuttal pharse. <br>
 [**2023.12.10**] The code of Consistent4D is released! The code is refractored and optimized to accelerate training (**~2 hours** on a V100 GPU now!). For the convenience of quantitative comparison, we provide [**test dataset**](https://drive.google.com/file/d/1jn18kA2FfKMnyQ6fisIn8rhBI0dr3NFk/view?usp=sharing) used in our paper (our results on test dataset are also included). <br>
