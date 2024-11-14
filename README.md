@@ -20,6 +20,7 @@ Extensive experiments show that our Consistent4D can perform competitively to pr
 # Important notes
 Recently I found some works trained on Objaverse animated models and adopted the test dataset in Consistent4D. However, Objaverse contains **six out of seven** animated objects in our work, and it is suggested to filter them when training on that dataset for a fiar test. The uid of objects in test dataset is provided in [test_dataset_uid.txt](test_dataset_uid.txt)
 # News
+[**2024.07.17**] &#x1F389; We release our new 4D generation work, [Animate3D](https://github.com/yanqinJiang/Animate3D)! It is able to animate any 3D object (mesh/Gaussian) and could **export animated mesh files ready for import into standard 3D softwares and Game Engines**! <br>
 [**2024.03.25**] &#x1F389; Our new work [STAG4D](https://nju-3dv.github.io/projects/STAG4D/) is avaliable on arxiv! The results produced by STAG4D is **way better than** those of Consistent4D;. Welcome to keep an eye on it! <br>
 [**2024.01.23**] &#x1F389; All codes, including evaluation scripts, are released! Thanks for your interests! (The refractored code seems to be able to generate slightly better results than what we used before. Don't know why, but happy to hear this.) <br>
 [**2024.01.16**] &#x1F389;&#x1F61C; **Consistent4D** is accepted by [ICLR 2024](https://openreview.net/forum?id=sPUrdFGepF)! Thanks for all! Our paper will soon be updated according to the suggestions in rebuttal pharse. <br>
@@ -28,6 +29,9 @@ Recently I found some works trained on Objaverse animated models and adopted the
 
 # Installation
 **The installation is the same as the original threestudio, so skip it if you have already installed threestudio.** 
+
+The code is tested on V100 GPU with python 3.9.16, CUDA 11.1 and torch 1.12.1+cu113.
+
 * You must have an NVIDIA graphics card with at least 24GB VRAM and have [CUDA](https://developer.nvidia.com/cuda-downloads) installed.
 * For video interpolation model, download **flownet.pkl** from [google drive](https://drive.google.com/file/d/1MWSTZYyRmm83asQQZBfPUJ9QsYohXSSy/view?usp=sharing), or use the latest version in [RIFE](https://github.com/hzwer/Practical-RIFE). We believe the latest version has better performace than old ones, but  we haven't tested it thoroughly. 
 
@@ -43,7 +47,7 @@ cd Consistent4D
 # Install torch: the code is tested with torch1.12.1+cu113
 pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
 # Install other packages
-pip install -r requirement.txt
+pip install -r requirements.txt
 
 
 # Prepare Zero123
